@@ -1,0 +1,18 @@
+h4 { color: white;
+font-family: 'Volkhov', serif;
+font-weight:400;
+
+}
+h1 { color: #CC33FF;
+     text-align: center;
+     font-family: 'Berkshire Swash', cursive;
+font-size: 600%;
+font-style: italic;}
+body {
+    background-color: black;
+    font-family: 'Allerta', sans-serif;
+}
+.span{color: #CC66FF;
+font-family: 'Volkhov', serif;
+font-weight:400;}
+

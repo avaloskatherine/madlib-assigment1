@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>My Mad Lib</title>
+<link rel="stylesheet" type="text/css" href="skeleton.css">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Volkhov:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class="container">
+<br>
+<br>
+<h1> Mad Lib</h1>
+<h4>
+<br>
+<span id="friendsname" class="span">[____]</span> is the best <span id="animalname" class="span">[____]</span> in the world. (S)he is quiet except when hungry or when (s)he wants to go play in <span id="favplace" class="span">[____]</span>. (S)he also loves to eat <span id="favfood" class="span">[____]</span> , and will do tricks for a bite of it. (S)he enjoys jumping up and sitting on my <span id="bodypart" class="span">[____]</span>. It's fun to watch (S)he <span id="action" class="span">[____]</span>.
+</h4>
+</div>
+<script >
+// store each prompt response in a variable.
+    var friendsname = prompt("Enter a friend's name");
+    var favplace  = prompt("Enter your favorite place");
+    var bodypart = prompt("Enter a body part");
+    var favfood = prompt("Enter your favorite food");
+    var animalname = prompt("Enter an animal kind");
+    var action = prompt("Enter a action");
+  
+
+    //log out each response from the user. to make the output more readable, we'll add a string before each variable
+    console.log("the animal name is: " + animalname);
+    console.log("the friends name is: " + friendsname);
+    console.log("your favorite place is: " + favplace);
+    console.log("your favorite food is: " + favfood);
+    console.log("the body part is: " + bodypart);
+    console.log("the action is: " + action);
+    
+    
+  //log out each response from the user. to make the output more readable, we'll add a string before each variable  
+    document.getElementById('animalname').innerHTML = animalname;
+    document.getElementById('friendsname').innerHTML = friendsname;
+    document.getElementById('animalname').innerHTML = animalname;
+    document.getElementById('favplace').innerHTML = favplace;
+    document.getElementById('favfood').innerHTML = favfood;
+    document.getElementById('bodypart').innerHTML = bodypart;
+    document.getElementById('action').innerHTML = action;
+   
+    
+    
+</script>
+</body>
+</html>
